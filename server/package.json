@@ -1,0 +1,30 @@
+{
+  "name": "learn.graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugosinp/learn.graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugosinp/learn.graphql/issues"
+  },
+  "homepage": "https://github.com/hugosinp/learn.graphql#readme",
+  "dependencies": {
+    "@prisma/client": "^3.3.0",
+    "apollo-datasource-rest": "^3.3.0",
+    "apollo-server": "^3.4.0",
+    "axios": "^0.23.0",
+    "graphql": "^15.6.1",
+    "graphql-iso-date": "^3.6.1",
+    "node-fetch": "^3.0.0",
+    "prisma": "^3.3.0"
+  }
+}
