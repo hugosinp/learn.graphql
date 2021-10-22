@@ -21,10 +21,8 @@
     "@prisma/client": "^3.3.0",
     "apollo-datasource-rest": "^3.3.0",
     "apollo-server": "^3.4.0",
-    "axios": "^0.23.0",
     "graphql": "^15.6.1",
     "graphql-iso-date": "^3.6.1",
-    "node-fetch": "^3.0.0",
     "prisma": "^3.3.0"
   }
 }
