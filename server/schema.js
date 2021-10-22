@@ -13,6 +13,7 @@ const typeDefs = gql`
     type User {
         id: Int
         username: String
+        password: String
         posts: [Post]
     }
 
@@ -39,6 +40,7 @@ const typeDefs = gql`
 
 
     type Mutation {
+        createUser(username: String, password: String): User
         createPost(content: String): Post
         createComment(post_id: Int, content:String): Post
         updatePost(id: Int, content: String): Post
