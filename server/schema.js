@@ -11,14 +11,14 @@ const typeDefs = gql`
     scalar Date
 
     type User {
-        id: Int
+        id: Int!
         username: String
         password: String
         posts: [Post]
     }
 
     type Post {
-        id: Int
+        id: Int!
         author: User
         createdAt: Date
         updatedAt: Date
